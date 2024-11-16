@@ -44,10 +44,3 @@ expo-env.d.ts
 *.apk
 *.keystore
 *.ipa
-
-# Scripts
-scripts/
-
-# openapi generated files
-client/output
-openapitools.json

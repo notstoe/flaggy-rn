@@ -4,7 +4,7 @@ module.exports = {
   },
   extends: ["expo", "prettier"],
   parser: "@typescript-eslint/parser",
-  plugins: ["prettier", "react-native", "@typescript-eslint", "@tanstack/eslint-plugin-query"],
+  plugins: ["prettier", "react-native", "@typescript-eslint"],
   rules: {
     "prettier/prettier": "warn",
     "react-native/no-inline-styles": "warn",
