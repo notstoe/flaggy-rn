@@ -10,7 +10,7 @@
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.gustavotonin.flaggy"
+      "bundleIdentifier": "com.flaggy.thebestflagapp.uk"
     },
     "android": {
       "adaptiveIcon": {
