@@ -1,12 +1,16 @@
 import Colors from "@/constants/Colors";
 import { StackActions } from "@react-navigation/native";
 import { useNavigation } from "expo-router";
-import React from "react";
-import { StyleSheet, View, Text } from "react-native";
+import React, { useEffect } from "react";
+import { StyleSheet, View, Text, Alert } from "react-native";
 import { Pressable } from "react-native-gesture-handler";
 
 export default function TabTwoScreen() {
   const navigation = useNavigation();
+
+  useEffect(() => {
+    Alert.alert("hey welcome to the app my friend!!!!!! ");
+  }, []);
 
   return (
     <View style={styles.container}>

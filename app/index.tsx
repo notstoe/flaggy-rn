@@ -9,6 +9,8 @@ export default function Index() {
       <Text>Welcome to the best flag game ever made ?</Text>
       <Pressable style={styles.btn} onPress={() => router.replace({ pathname: "/(tabs)" })}>
         <Text>Start</Text>
+        <Text>Stop</Text>
+        <Text>Get going bruther!</Text>
       </Pressable>
     </View>
   );
